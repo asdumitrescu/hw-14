@@ -1,0 +1,2 @@
+- name: Copy aviel.txt
+  copy: src=hello_world.txt dest=/tmp/test1
