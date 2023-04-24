@@ -1,2 +1,4 @@
 - name: Copy machines_hostname.j2
-  copy: src=machines_hostname.j2 dest=/tmp/test2
+  template:
+    src: templates/machines_hostname.j2
+    dest: /tmp/test2
